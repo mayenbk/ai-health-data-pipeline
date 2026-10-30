@@ -1,6 +1,6 @@
-# AI-Powered Health Data Quality Pipeline
+# AI Powered Health Data Quality Pipeline
 
-A production-ready Python pipeline that automates ingestion, validation, cleaning, and anomaly detection of public health datasets using machine learning.
+A production ready Python pipeline that automates ingestion, validation, cleaning, and anomaly detection of public health datasets using machine learning.
 
 ## What It Does
 
@@ -64,7 +64,7 @@ ai-health-data-pipeline/
 
 ## Author
 
-**Mayen Ben-Koko** | Giboel & Co Ltd, London, UK  
+**Mayen Ben-Koko**
 [linkedin.com/in/mayenbk](https://linkedin.com/in/mayenbk)
 
 ## License
