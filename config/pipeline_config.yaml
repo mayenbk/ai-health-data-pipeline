@@ -1,1 +1,30 @@
+pipeline:
+  name: "Health Data Quality Pipeline"
+  version: "1.0"
 
+data_source:
+  type: "csv"
+  path: "data/input.csv"
+
+schema:
+  required_columns:
+    - country
+    - year
+    - indicator_value
+  expected_types:
+    year: int
+    indicator_value: float
+
+quality_thresholds:
+  max_missing_rate: 0.10
+  max_anomaly_rate: 0.05
+  min_completeness_score: 0.90
+
+anomaly_detection:
+  algorithm: "isolation_forest"
+  contamination: 0.05
+  random_state: 42
+
+output:
+  report_path: "outputs/quality_report.json"
+  flagged_data_path: "outputs/flagged_records.csv"
