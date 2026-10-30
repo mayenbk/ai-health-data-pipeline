@@ -1,1 +1,7 @@
-
+{
+  "generated_at": "2026-07-29T12:00:00",
+  "dataset_summary": {"total_rows": 500, "total_columns": 12},
+  "validation": {"passed": true, "issues": [], "stats": {"completeness_score": 0.97, "duplicate_rows": 0}},
+  "anomaly_summary": {"total_anomalies": 18, "anomaly_rate_percent": 3.6, "status": "PASS"},
+  "recommendations": ["Dataset passed all quality checks"]
+}
